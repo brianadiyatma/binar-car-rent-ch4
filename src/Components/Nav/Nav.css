@@ -1,0 +1,192 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a:hover,
+a:visited {
+  color: #000;
+  text-decoration: none; /* no underline */
+}
+
+.lb-bg {
+  background-color: #f1f3ff;
+}
+
+.logo {
+  width: 100px;
+  height: 34px;
+  background: #0d28a6;
+}
+
+.nav-item {
+  font-size: 14px;
+}
+
+.btn-register {
+  background: #5cb85f;
+  border: none;
+  border-radius: 2px;
+  width: 81px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav-text {
+  color: black;
+  font-size: 14px;
+}
+
+.car-banner {
+  display: flex;
+  justify-content: flex-end;
+}
+.white-text {
+  font-size: 14px;
+  line-height: 20px;
+
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.banner-header {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.banner-desc {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.service-banner {
+  display: flex;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.img-service {
+  width: 459px;
+  height: 428px;
+}
+.card-text {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* swiper */
+.swiper {
+  width: 100%;
+  min-height: 16.875rem;
+  padding: 1rem 0;
+}
+
+.btn-green {
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-green:hover {
+  background: #4e9e50 !important;
+}
+
+.prev,
+.next {
+  transition: all 0.2s ease-in-out;
+}
+
+.prev:hover,
+.next:hover {
+  background: #4e9e50;
+  border: none;
+}
+
+.prev:hover path,
+.next:hover path {
+  stroke: white;
+}
+
+@media screen and (min-width: 768px) {
+  .service-banner {
+    justify-content: space-evenly;
+  }
+  .service-banner-text {
+    width: 460px;
+  }
+  .heading-service {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .text-service {
+    padding: 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .car-img {
+    width: 704px;
+    height: 407px;
+  }
+
+  .ml-136 {
+    margin-left: 136px;
+  }
+  .mx-136 {
+    margin-left: 136px;
+    margin-right: 136px;
+  }
+  .banner-text {
+    margin-top: 124px;
+  }
+  .banner-helper {
+    width: 530px;
+  }
+  .img-service {
+    width: 459px;
+    height: 428px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .service-banner {
+    flex-direction: column-reverse;
+  }
+  .car-img {
+    width: 352px;
+    height: 203.5px;
+  }
+  .car-banner {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .car-img {
+    width: 352px;
+    height: 203.5px;
+  }
+  .car-banner {
+    display: flex;
+    justify-content: center;
+  }
+  .img-service {
+    width: 300px;
+    height: 280px;
+  }
+}
